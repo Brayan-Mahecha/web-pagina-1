@@ -1,0 +1,235 @@
+/*Inicio página principal*/
+.color{
+  background-color: #e1faea;
+}
+.ajuste{
+    margin-top: 100px;
+ }
+.ajuste_img{
+    margin-top: 20px;
+    min-width: 50%;
+}
+/* Botones */
+.btn {
+  color: white;
+}
+.btn:hover{
+  color: blue;
+}
+.btn-circle{
+  height: 37px;
+  border-radius: 90px;
+}
+.btn-borde{
+  border-radius: 5px;
+}
+/* Fin botones */
+.fondo2{
+  background: url('../img/panel2.jpeg') 20% no-repeat fixed;
+  padding: 100px 0;
+  text-align: center;
+}
+#accion{
+  color: rgb(250, 248, 248);
+  font-weight: bolder;
+}
+h1,h2,h3{
+  font-family: 'Dancing Script', cursive;
+}
+
+/*Ajustes según tamaño*/
+/* Large and up */
+@media (min-width:992px) {
+    .ajuste{
+      margin-top: 100px;
+    }
+    .instalador {
+      align-self: center;
+      width: 25%;
+    }
+}
+  /* Medium and up */
+@media (min-width:768px) {
+    .ajuste{
+      margin-top: 50px;
+    }
+}
+  /* Small only */
+@media (max-width:576px) {
+    .ajuste{
+      margin-top: 0px;
+    }
+    .menu a{
+      font-size: small;
+     }
+}
+.col-sm-12{
+  text-align: center;
+}
+.col-sm-6{
+  text-align: center;
+}
+/*Fin ajustes según tamaño*/
+
+/* Hero */
+.hero-section {
+    background: url("../img/panel.jpeg") 100% fixed;
+    background-size: cover;
+    height: 30vh;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+footer{
+    font-size: small;
+    background-color: black;
+    color: white;
+}
+footer a{
+    color: white;
+}
+/* Small only */
+@media (max-width:576px) {
+    .hero-section {
+      height: 15vh;
+    }
+}
+.hero-section .hero-section-text {
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #a30202;
+}
+/* Termina Hero*/
+
+/*Ajustes tarjeta*/
+.tarjeta-flip:hover {
+  transform: rotateY(360deg);
+  transition: transform 2.6s;
+}
+.centro{
+  margin: 30vh auto 0px auto
+}
+/*Fin ajustes tarjeta*/
+
+/*Fin página principal*/
+
+/*Inicio login*/
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.logo_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.logo_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.card-title{
+  background-color: white;
+}
+
+.logo_icon{
+position: absolute;
+right: -100px;
+top: -70px;
+}
+
+.input-group-prepend span{
+width: 50px;
+height: 100%;
+background-color: #a09fa0;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: black;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #12ffd8;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+/*Fin login*/
+
+.ground {
+  background-color: rgb(233, 230, 230);
+}
+
+.roun {
+  border-radius: 15%;
+}
+.titulo {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.title {
+  background: url('../img/titulo.png') 0% no-repeat;
+  color: white;
+}
+
+/* Inicio Modal */
+.modal-content{
+  height: 200px;
+  width: 500px;
+  background-color: rgba(250, 248, 248, 0.5);
+}
+.centro{
+  margin: 30vh auto 0px auto
+}
+
+/* Fin Modal */
+
+/* Form registro */
+.headerform {
+  color: #36A0FF;
+  font-size: 27px;
+  padding: 10px;
+}
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF;
+}
+/* Fin form */
